@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const commonConfig = require("./webpack.common");
 
 const devConfig = {
-  module: "development",
+  mode: "development",
   devServer: {
     port: 8081,
     historyApiFallback: {
